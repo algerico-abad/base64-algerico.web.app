@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {Helmet} from 'react-helmet';
 import './index.css';
 import {ReactComponent as ICON_CLOUDARROWUP_SMALL} from './assets/icons/cloud-arrow-up-fill.svg'
 
@@ -148,25 +147,6 @@ class Base64 extends React.Component {
   render() {
     return(
       <div className='column' id='view'>
-        <Helmet>
-          <title>Base64 Image Converter - Algerico</title>
-          <meta charSet='utf-8' />
-          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-          <meta name="title" content="Base64 Image Converter - Algerico" />
-          <meta name="description" content="Base64 Image Converter effortlessly transforms images into base64-encoded strings for seamless integration into web applications and development projects." />
-
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://base64-algerico.web.app/" />
-          <meta property="og:title" content="Base64 Image Converter - Algerico" />
-          <meta property="og:description" content="Base64 Image Converter effortlessly transforms images into base64-encoded strings for seamless integration into web applications and development projects." />
-          <meta property="og:image" content="https://i.ibb.co/QpdZ87B/Frame-17.png" />
-
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://base64-algerico.web.app/" />
-          <meta property="twitter:title" content="Base64 Image Converter - Algerico" />
-          <meta property="twitter:description" content="Base64 Image Converter effortlessly transforms images into base64-encoded strings for seamless integration into web applications and development projects." />
-          <meta property="twitter:image" content="https://i.ibb.co/QpdZ87B/Frame-17.png" />
-        </Helmet>
         <div className='column'>
           <h1>Base<span className='primary'>64</span></h1>
           <p>Convert images to base64</p>
